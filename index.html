@@ -5,20 +5,19 @@
     <meta charset="utf-8">
     <meta name="description" content="&lt;model-viewer&gt; template">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link type="text/css" href="./vkrfmainstyles.css" rel="stylesheet"/>
+    <link type="text/css" href="./styles.css" rel="stylesheet"/>
     <link rel="stylesheet" href="./reset.min.css" />
     <link rel="stylesheet" href="./stylemain.css" />
     <link rel="stylesheet" href="./navigation.css" />
-  </head>
     <!-- OPTIONAL: The :focus-visible polyfill removes the focus ring for some input types -->
     <script src="https://unpkg.com/focus-visible@5.0.2/dist/focus-visible.js" defer></script>
+  </head>
   <body>
     <header class="site-header">
       <div class="wrapper site-header__wrapper">
         <a href="#" class="brand">VKRF</a>
       </div>
     </header>
-
     <!-- <model-viewer> HTML element -->
     <model-viewer src="vkrfmain.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="vkrfmainposter.webp" shadow-intensity="1" environment-image="legacy" exposure="0.21">
       <button class="Hotspot" slot="hotspot-1" data-position="-273.5786043052203m 86.7644972396771m -99.9624583746513m" data-normal="0.021098455336046023m 0.07169329887297882m -0.997203552981608m" data-visibility-attribute="visible">
@@ -34,9 +33,9 @@
     </model-viewer>  
     <script src="script.js"></script>
     <!-- Loads <model-viewer> for browsers: -->
-      <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
-     <!-- <model-viewer> HTML element -->
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
     
+    <!-- <model-viewer> HTML element -->
       <model-viewer src="vkrfrazrez.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="vkrfrposter.webp" shadow-intensity="1" environment-image="legacy" exposure="0.21">
         <button class="Hotspot" slot="hotspot-1" data-position="-88.80449967483423m 132.05532283914735m -27.602036375921216m" data-normal="-0.9479271440684484m 0m -0.3184872517672183m" data-visibility-attribute="visible">
             <div class="HotspotAnnotation">Электродвигатель</div>
